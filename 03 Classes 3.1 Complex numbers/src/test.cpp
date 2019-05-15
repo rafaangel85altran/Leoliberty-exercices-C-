@@ -39,9 +39,7 @@ Complex complex3;
 	argv[2][0] = '*';
 		complex3 = complex1 * complex2;
 	} else if (argv[2][0] == '/') {
-		complex3 = complex1 / complex2;
-	}
-
+		complex3 = complex1 / complex2;}
 	cout << complex1 << " " << argv[2][0] << " (" << complex2 << ") = " << complex3 << endl;
 
 return 0;
